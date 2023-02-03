@@ -12,6 +12,12 @@ import createSagaMiddleware from '@redux-saga/core';
 
 import { rootSaga } from './root-saga';
 
+declare global {
+  interface window {
+    __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose
+  }
+}
+
 
 const sagaMiddleware = createSagaMiddleware();
 

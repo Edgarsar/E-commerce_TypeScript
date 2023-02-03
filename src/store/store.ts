@@ -17,6 +17,8 @@ const sagaMiddleware = createSagaMiddleware();
 
 const middleware = [process.env.NODE_ENV !== "production" && logger, sagaMiddleware].filter(Boolean);
 
+export type RootState = ReturnType<typeof rootReducer>
+
 const persistConfig = {
   key: "root",
   storage,

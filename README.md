@@ -1,4 +1,3 @@
-## Getting Started
+### Getting Started
 
-
-- Go to <https://luxury-bombolone-bde543.netlify.app/> in your browser.
+- You can access the live demo [here](https://luxury-bombolone-bde543.netlify.app/).
